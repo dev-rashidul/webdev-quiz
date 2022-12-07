@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .menu {
+    position: absolute;
+    width: 100%;
+    background: #4fd7eb;
+    text-align: center;
+  }
+  .menu li a {
+    color: #ffffff;
+    padding-left: 0;
+  }
+}

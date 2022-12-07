@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .chart {
+    width: 100% !important;
+  }
+}
