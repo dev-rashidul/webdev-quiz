@@ -19,7 +19,7 @@ const Hero = () => {
                   Development. So, let's get started. Good luck to you.
                 </p>
                 <Link
-                  className="bg-cyan-400 text-white text-lg font-medium py-2.5 px-4 rounded-md"
+                  className="bg-cyan-400 text-white text-lg font-medium py-2.5 px-4 rounded-md hover:bg-cyan-500 duration-500"
                   to="/"
                 >
                   Learn More

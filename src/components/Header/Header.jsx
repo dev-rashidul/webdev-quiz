@@ -16,9 +16,9 @@ const Header = () => {
             <Link to='/'>WebDev Quiz</Link>
           </div>
           <ul className={`menu block md:flex mt-2 top-12 md:top-0 py-5 md:py-0 duration-500 ease-in-out ${open ? 'left-0' : 'left-[-100%]'}`}>
-            <li><Link className="text-black text-lg pl-6" to="/">Home</Link></li>
-            <li><Link className="text-black text-lg pl-6" to="/statistics">Statistics</Link></li>
-            <li><Link className="text-black text-lg pl-6" to="/blog">Blog</Link></li>
+            <li><Link className="text-black text-lg pl-6 hover:text-gray-500 duration-500" to="/">Home</Link></li>
+            <li><Link className="text-black text-lg pl-6 hover:text-gray-500" to="/statistics">Statistics</Link></li>
+            <li><Link className="text-black text-lg pl-6 hover:text-gray-500" to="/blog">Blog</Link></li>
           </ul>
           <div onClick={() => setOpen(!open)} className="md:hidden h-6 w-6 cursor-pointer">
             {

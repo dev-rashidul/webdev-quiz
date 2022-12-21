@@ -18,7 +18,7 @@ const Quiz = ({ quizCat }) => {
             <p className="text-lg font-medium"> Total Quiz : {total}</p>
         </div>
         <div className="button">
-            <Link to={`/quizCat/${id}`} className="block w-full bg-cyan-400 text-lg text-white text-center font-medium py-2 rounded-b-md">Start Quiz <FontAwesomeIcon className='pl-2' icon={faArrowRightLong}></FontAwesomeIcon> </Link>
+            <Link to={`/quizCat/${id}`} className="block w-full bg-cyan-400 text-lg text-white text-center font-medium py-2 rounded-b-md hover:bg-cyan-500 duration-500">Start Quiz <FontAwesomeIcon className='pl-2' icon={faArrowRightLong}></FontAwesomeIcon> </Link>
         </div>
       </div>
     </div>
